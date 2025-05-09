@@ -7,3 +7,4 @@ router.post('/register',[body('email').isEmail(), body('password').isLength({min
 router.post('/login', login)
 
 module.exports = router;
+   
